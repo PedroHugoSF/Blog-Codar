@@ -9,6 +9,7 @@
 html {
   min-height: 100vh;
   position: relative;
+
 }
 
 main {
@@ -46,4 +47,20 @@ main {
   text-decoration: none;
   transition: .5s;
   font-size: 14px;
+}
+
+#navbar .nav-link:hover {
+  color: #999;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: black;
+  color: #FFF;
+  padding: 50px 0;
 }
